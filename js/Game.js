@@ -106,7 +106,7 @@ class Game {
 
   handleElements() {
     form.hide();
-    form.titleImg.position(40, 50);
+    form.titleImg.position(40, 20);
     form.titleImg.class("gameTitleAfterEffect");
 
     this.resetTitle.html("Reset Game");
